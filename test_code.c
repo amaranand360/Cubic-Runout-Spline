@@ -4,7 +4,7 @@
 extern void calculate_spline(double *x_values, double *y_values, double *M_values, int n);
 extern double interpolate(double x, double *x_values, double *y_values, double *M_values, int n);
 
-int main() {
+void test() {
     int n1 = 3;
     double x_values1[] = {2.04, 3.04, 4.04};
     double y_values1[] = {0.0, 0.5, 1.0};
@@ -25,5 +25,4 @@ int main() {
 
     printf("All test cases passed successfully!\n");
 
-    return 0;
 }
